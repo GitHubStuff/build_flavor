@@ -28,7 +28,7 @@ class ConfigFlavor {
 
   dynamic variable(String name) {
     dynamic result = _instance._variables[name];
-    assert(result != null, 'Cannot find "$name"');
+    //assert(result != null, 'Cannot find "$name"');
     if (result == null) throw CantLoadVariable('Missing "$name"', 404);
     return result;
   }
