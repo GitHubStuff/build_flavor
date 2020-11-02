@@ -1,0 +1,22 @@
+name: build_flavor
+description: A new Flutter package project.
+version: 0.0.1
+author:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  app_exception:
+    git:
+      url: https://github.com/GitHubStuff/app_exception.git
+  enum_to_string: ^1.0.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
