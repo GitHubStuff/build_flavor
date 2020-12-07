@@ -1,9 +1,8 @@
 import 'package:build_flavor/build_flavor.dart';
-import 'package:build_flavor/source/config_flavor.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  ConfigFlavor(flavor: Flavor.Test, variables: {'bff': 'DeeDee'});
+  ConfigFlavor(flavor: Flavor.Release, variables: {'bff': 'DeeDee'});
   runApp(MyApp());
 }
 
