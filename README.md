@@ -47,3 +47,7 @@ This will throw an error if the key(eg 'Tom') was <u>NOT</u> loaded in when Conf
 final Flavor flavor = ConfigFlavor.instance.flavor;
 </pre>
 Returns the active run flavor.
+
+## Conclusion
+
+Be kind to each other.
